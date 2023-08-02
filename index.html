@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Unit 3 Project</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="Header">Life of a Student</h1>
+  <p class="name-input">Enter Your Name:</p>
+  <input class="bar" type="text" oninput="changeName(this.value)" />
+
+  <div class="story-opening">
+    <img alt="picture of student and homework"
+      src="https://static.vecteezy.com/system/resources/previews/014/005/417/original/boys-are-writing-kids-doing-homework-maths-at-home-cartoon-cute-little-boy-in-red-shirt-siting-on-the-desk-the-concept-of-learning-age-illustrations-isolated-on-white-background-vector.jpg">
+    <h1>You have homework, but you are tired. Do you want to do it, <span id="nameOpening"></span>?</h1>
+  </div>
+
+  <button class="option-one">Yes</button>
+  <button class="option-two">No</button>
+
+  <div class="option-one-screen">
+    <h1>You said Yes, <span id="nameOneScreen"></span>!</h1>
+    <img alt="picture of yes"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgt81-aMsz0O-V4GpdV3eLrC9BW-2_4TtEZSD_yf0maqQzKGcxozr2MGaSitw7GI0OOOs&usqp=CAU">
+    <button class="continue1">Continue</button>
+  </div>
+
+  <div class="option-two-screen">
+    <h1>You said No, <span id="nameTwoScreen"></span>!</h1>
+    <img alt="picture of no"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBLYta82WstvzHJ3E3kkUTMgdgy5ZaMNBmbFBumEIQ8CavbVHU41yTWAku6aTmVwDa-Pw&usqp=CAU">
+    <button class="continue2">Continue</button>
+  </div>
+
+  <div class="option-one-end">
+    <h1>You get a 100 on the assignment, but you get detention for falling asleep in class, <span
+        id="nameOneEnd"></span>.</h1>
+    <img alt="picture of student in detention and sleeping"
+      src="https://www.rubiconline.com/wp-content/uploads/2019/10/Tana-Cartoon.png">
+  </div>
+
+  <div class="option-two-end">
+    <h1>You get a 0 on the assignment, but you are well rested and focused in class, <span id="nameTwoEnd"></span>.</h1>
+    <img alt="picture of sad student"
+      src="https://img.freepik.com/premium-vector/cute-little-girl-feel-sad-because-get-bad-grade-from-exam_97632-4653.jpg">
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
